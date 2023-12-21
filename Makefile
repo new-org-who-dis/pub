@@ -1,2 +1,2 @@
 ci:
-	echo ci pass
+	bash ci.sh
