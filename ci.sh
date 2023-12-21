@@ -4,4 +4,4 @@ export GH_TOKEN=$token
 
 # gh label create "safe"
 # gh pr edit 4 --add-label "safe"
-gh pr merge 4
+gh pr merge 4 --squash 
