@@ -11,6 +11,3 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - uses: anchore/sbom-action@v0
-      with:
-        image: alpine:edge
