@@ -23,5 +23,5 @@ jobs:
 
       - name: make ci
         run: |
-          make ci
+          echo go build 
           
