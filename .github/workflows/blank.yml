@@ -14,7 +14,7 @@ env:
   PR_NUMBER: ${{ github.event.pull_request.number }}
 
 jobs:
-  project-build:
+  go:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
